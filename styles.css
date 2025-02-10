@@ -1,0 +1,28 @@
+
+        body {
+          background-color: #B5B3B3;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #res {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        input {
+          background-color: lightgray;
+          border-style: outset;
+          border-color: white;
+            margin: 5px;
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+          background-color: lightgray;
+          border-style: inset;
+          border-color: white;
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }

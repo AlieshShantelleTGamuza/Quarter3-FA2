@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calcU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1>calcU</h1>
+    
+    <p><b>Enter two numbers and click on the operation buttons below to calculate the result.</b></p>
+    
+    <input type="number" id="num1" placeholder="Num 1">
+    <input type="number" id="num2" placeholder="Num 2">
+    
+    <br>
+    
+    <button onclick="displayRes(add, '+')">+</button>
+    <button onclick="displayRes(sub, '-')">-</button>
+    <button onclick="displayRes(multiply, '*')">*</button>
+    <button onclick="displayRes(divide, '/')">/</button>
+    <button onclick="displayRes(modu, '%')">%</button>
+    <div id="res">Results will be displayed here.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
